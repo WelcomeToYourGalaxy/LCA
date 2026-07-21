@@ -1,0 +1,35 @@
+{
+  "year": 2022,
+  "sectors": {
+    "22": {
+      "name": "Utilities",
+      "carbon": 450,
+      "output": 500
+    },
+    "23": {
+      "name": "Construction",
+      "carbon": 210,
+      "output": 300
+    },
+    "325": {
+      "name": "Chemicals",
+      "carbon": 340,
+      "output": 400
+    }
+  },
+  "states": {
+    "CA": {
+      "emp_share": 0.12,
+      "carbon": 615
+    },
+    "TX": {
+      "emp_share": 0.09,
+      "carbon": 468
+    },
+    "NY": {
+      "emp_share": 0.07,
+      "carbon": 371
+    }
+  },
+  "timestamp": "2026-07-21T01:27:48.902509"
+}
