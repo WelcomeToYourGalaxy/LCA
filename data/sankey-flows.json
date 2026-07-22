@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "name": "Agriculture",
+      "type": "sector"
+    },
+    {
+      "name": "Food Processing",
+      "type": "sector"
+    },
+    {
+      "name": "Mining",
+      "type": "sector"
+    },
+    {
+      "name": "Chemicals",
+      "type": "sector"
+    },
+    {
+      "name": "Metals",
+      "type": "sector"
+    },
+    {
+      "name": "Retail",
+      "type": "sector"
+    },
+    {
+      "name": "Plastics",
+      "type": "sector"
+    },
+    {
+      "name": "Metal Products",
+      "type": "sector"
+    },
+    {
+      "name": "Machinery",
+      "type": "sector"
+    },
+    {
+      "name": "Electrical",
+      "type": "sector"
+    },
+    {
+      "name": "Electronics",
+      "type": "sector"
+    },
+    {
+      "name": "Transport Equip",
+      "type": "sector"
+    },
+    {
+      "name": "Wholesale",
+      "type": "sector"
+    },
+    {
+      "name": "Households",
+      "type": "sector"
+    },
+    {
+      "name": "Utilities",
+      "type": "sector"
+    },
+    {
+      "name": "Manufacturing",
+      "type": "sector"
+    },
+    {
+      "name": "Textiles",
+      "type": "sector"
+    },
+    {
+      "name": "Apparel",
+      "type": "sector"
+    },
+    {
+      "name": "Exports",
+      "type": "end"
+    },
+    {
+      "name": "Waste",
+      "type": "end"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 1200
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 850
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 950
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "value": 1050
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "value": 720
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "value": 880
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 750
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "value": 580
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 520
+    },
+    {
+      "source": 12,
+      "target": 5,
+      "value": 1100
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "value": 950
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "value": 850
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "value": 680
+    },
+    {
+      "source": 17,
+      "target": 5,
+      "value": 580
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "value": 950
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "value": 520
+    }
+  ],
+  "metadata": {
+    "title": "Global Supply Chain Flows (WIOT 2014)",
+    "year": 2014,
+    "unit": "Million USD"
+  }
+}
