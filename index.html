@@ -339,7 +339,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('data/sankey-64-sectors.json');
+                const response = await fetch('/Economy-Map-3/data/sankey-64-sectors.json');
                 sankey_data = await response.json();
                 console.log(`Loaded ${sankey_data.nodes.length} nodes, ${sankey_data.links.length} links`);
                 
